@@ -2,9 +2,10 @@ import React from 'react';
 
 function App() {
   return (
-    <div>
+    <div className="flex w-full h-screen items-center justify-center">
       <form>
-        <input type="text" placeholder="Cidade" />
+        <input className="p-3 rounded-lg outline-none" type="text" placeholder="Cidade" />
+        <button className="bg-blue-600 p-3 rounded-lg ml-3 text-white font-bold" type="submit">Pesquisar</button>
       </form>
     </div>
   );
